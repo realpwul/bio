@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://preview.redd.it/frutiger-aero-wallpaper-4k-upscaling-turquoise-v0-bdvrspnnio7d1.png?width=1080&crop=smart&auto=webp&s=86f2e74791b4ab611f7bbbf12e303c791bf19b6c');
+    background-size: cover;         
+    background-position: center;     
+    background-repeat: no-repeat;   
+    background-attachment: fixed;  
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15); 
+
+    padding: 40px 50px;
+    max-width: 450px; 
+    margin: 20px;
+    display: inline-block; 
+}
+
+.card h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+}
+
+.card .bio {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #f0f0f0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card .biotwo {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #f0f0f0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.pcard {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15); 
+
+    padding: 40px 50px;
+    width: 100%;
+    max-width: 450px; 
+    margin: 20px;
+    display: inline-block; 
+}
+
+.pimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pimage img {
+    width: auto; 
+    height: 150px; 
+    border-radius: 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+}
+
+.social-button {
+    color: #fff;
+    font-size: 1.8em;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.social-button:hover {
+    transform: scale(1.2); 
+    color: #cce7ff; 
+}
+
+.click-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.click-button {
+    background-color: transparent; 
+    color: #fff;
+    font-size: 15px; 
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.click-button:hover {
+    background-color: transparent; 
+    transform: scale(1.05); 
+}
+.click-button:active {
+    transform: scale(0.95); 
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 20px 20px 0 0; 
+    pointer-events: none; 
+    opacity: 0.8;
+}
+
